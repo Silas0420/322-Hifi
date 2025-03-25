@@ -6,6 +6,12 @@ body {
     height: 300px;
 }
 
+#designer {
+    height: 600px;
+    margin: -1 25%;
+    padding-bottom: 300px;
+}
+
 .login {
     position: absolute;
     right: 0;
