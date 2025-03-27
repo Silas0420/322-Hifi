@@ -1,19 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <img id="logo" src="logo.webp" alt="Logo der Lernplattform 'STUDENT' mit einem aufgeschlagenen Buch, aus dem eine Pflanze wächst. Der Schriftzug 'STUDENT – Learning Platform' ist sichtbar." />
-    <form class="Login-Form">
-        <label id="Benutzername" for="name">Benutzername</label>
-        <input class="Login-Input" type="text" id="name" name="name"> <br>
-        <label id="Passwort" for="email">Passwort</label>
-        <input id="Passwort-Input" class="Login-Input" type="email" id="email" name="email">
-    </form>
-    <a class="login" id="login2"  href="uebersicht.html">Login</a>
-</body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        id="logo"
+        src="logo.webp"
+        alt="Logo der Lernplattform 'STUDENT' mit einem aufgeschlagenen Buch, aus dem eine Pflanze wächst. Der Schriftzug 'STUDENT – Learning Platform' ist sichtbar."
+        tabindex="1"
+      />
+    </header>
+    <main>
+      <form class="Login-Form">
+        <label id="Benutzername" for="name" tabindex="2">Benutzername</label>
+        <input class="Login-Input" type="text" id="name" name="name" tabindex="3" /> <br />
+        <label id="Passwort" for="password" tabindex="4">Passwort</label>
+        <input
+          id="Passwort-Input"
+          class="Login-Input"
+          type="password"
+          id="password"
+          name="password"
+          tabindex="5"
+        />
+      </form>
+      <a class="login" id="login2" href="uebersicht.html" tabindex="6">Login</a>
+    </main>
+  </body>
 </html>

@@ -1,39 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Übersicht</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="container2">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container2">
         <div id="logo">
-            <img id="logo" src="logo.webp" alt="Logo der Lernplattform 'STUDENT' mit einem aufgeschlagenen Buch, aus dem eine Pflanze wächst. Der Schriftzug 'STUDENT – Learning Platform' ist sichtbar." />
+          <img
+            id="logo"
+            src="logo.webp"
+            alt="Logo der Lernplattform 'STUDENT' mit einem aufgeschlagenen Buch, aus dem eine Pflanze wächst. Der Schriftzug 'STUDENT – Learning Platform' ist sichtbar."
+            tabindex="1"
+          />
         </div>
         <div id="name">
-            <h1>Gian Meier</h1>
+          <h1 tabindex="2">Gian Meier</h1>
         </div>
         <div id="navigation">
             <nav>
-                <a class="navi" href="">Deine Bibliothek</a>
-                <a class="navi" href="">Gruppen</a>
-                <a class="navi" href="">Lernset erstellen</a>
-                <a class="navi" href="">Profil</a>
+              <ul>
+                <li><a class="navi" href="" tabindex="3">Deine Bibliothek</a></li>
+                <li><a class="navi" href="" tabindex="4">Gruppen</a></li>
+                <li><a class="navi" href="" tabindex="5">Lernset erstellen</a></li>
+                <li><a class="navi" href="" tabindex="6">Profil</a></li>
+              </ul>
             </nav>
-        </div>
-    </div>
-    <h1 class="title">Zuletzt gelernt</h1>
-    <div class="container3">
-        <p class="box">Lernset 1<br>Klasse 1a</p>
-        <p class="box">Lernset 2<br>Klasse 1a</p>
-        <p class="box">Lernset 3<br>Klasse 1a</p>
-    </div>
-    <h1 class="title">Gruppen</h1>
-    <div class="container3">
-        <p class="box">Klasse 1a</p>
-        <p class="box">Klasse 2a</p>
-        <p class="box">Klasse 3a</p>
-    </div>
-</body>
+          </div>          
+      </div>
+    </header>
+    <main>
+      <h1 class="title" tabindex="7">Zuletzt gelernt</h1>
+      <div class="container3">
+        <p class="box" tabindex="8">Lernset 1<br />Klasse 1a</p>
+        <p class="box" tabindex="9">Lernset 2<br />Klasse 1a</p>
+        <p class="box" tabindex="10">Lernset 3<br />Klasse 1a</p>
+      </div>
+      <h1 class="title" tabindex="11">Gruppen</h1>
+      <div class="container3">
+        <p class="box" tabindex="12">Klasse 1a</p>
+        <p class="box" tabindex="13">Klasse 2a</p>
+        <p class="box" tabindex="14">Klasse 3a</p>
+      </div>
+    </main>
+  </body>
 </html>
