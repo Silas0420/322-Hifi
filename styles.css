@@ -42,3 +42,41 @@ body {
 p {
 
 }
+
+
+form {
+    color: black;
+    font-size: 70px;
+}
+
+.Login-Form {
+    text-align: center;
+}
+
+.Login-Input{
+    width: 700px;
+    height: 70px;
+    font-size: 70px;
+}
+
+#login2 {
+    margin: 0px;
+    background-color: rgb(49, 153, 209);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 75px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 50px;
+    left: calc(50% - 100px);
+    width: 400px;
+}
+
+#Passwort{
+    margin-right: 17px;
+}
+
+#Passwort-Input {
+    margin-left: 151px;
+}
