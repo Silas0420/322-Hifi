@@ -54,6 +54,7 @@ form {
 
 .Login-Form {
     text-align: center;
+    margin-top: 20px;
 }
 
 .Login-Input{
@@ -81,7 +82,7 @@ form {
 }
 
 #Passwort-Input {
-    margin-left: 151px;
+    margin-left: 170px;
 }
 
 nav{
