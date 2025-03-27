@@ -1,33 +1,44 @@
 body {
+    padding: 0;
+    margin: 0;
     font-family:Arial, Helvetica, sans-serif;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
 }
 
 #logo {
+    flex: 1;
     height: 300px;
 }
 
 #designer {
     height: 600px;
-    margin: -1 25%;
-    padding-bottom: 300px;
+    display: block;  /* Verhindert Inline-Verhalten */
+    margin: 0 auto;  /* Zentriert das Bild horizontal */
 }
-
+#loginbutton{
+    flex: 1;
+    padding: 30px 30px 0 0;
+}
 .login {
-    position: absolute;
-    right: 0;
-    margin: 50px;
     background-color: rgb(49, 153, 209);
     border-radius: 50px;
     padding: 20px;
-    font-size: 150px;
+    font-size: 100px;
     text-decoration: none;
     color: black;
 }
 
 #text {
-    margin: 10% 25%;
+    flex: auto;
+    font-size: 25px;
 }
 
 p {
-    font-size: 25px;
+
 }
