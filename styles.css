@@ -10,10 +10,13 @@ body {
     display: flex;
     width: 100vw;
 }
-
+.container2 {
+    display: flex;
+    align-items: center;
+}
 #logo {
     flex: 1;
-    height: 300px;
+    height: 160px;
 }
 
 #designer {
@@ -39,10 +42,10 @@ body {
     font-size: 25px;
 }
 
-p {
-
+#name {
+    flex: auto;
+    margin-left: 20px;
 }
-
 
 form {
     color: black;
@@ -79,4 +82,53 @@ form {
 
 #Passwort-Input {
     margin-left: 151px;
+}
+
+nav{
+    display: flex;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.navi {
+    margin-top: 10px;
+    border-right: 2px solid black;
+    padding: 10px;
+    background-color: rgb(49, 153, 209);
+    text-decoration: none;
+    color: black;
+}
+
+.navi:last-child {
+    border-right: none;
+    border-radius: 0 20px 20px 0;
+}
+
+.navi:first-child {
+    border-radius: 20px 0 0 20px;
+}
+
+.container3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+.title {
+    padding-left: 20px;
+}
+
+.box {
+    width: 350px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    background-color: #f9f9f9;
 }
