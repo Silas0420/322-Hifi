@@ -103,12 +103,12 @@ nav{
     color: black;
 }
 
-.navi:last-child {
+.navilast {
     border-right: none;
     border-radius: 0 20px 20px 0;
 }
 
-.navi:first-child {
+.navifirst {
     border-radius: 20px 0 0 20px;
 }
 
@@ -132,4 +132,18 @@ nav{
     text-align: center;
     font-size: 40px;
     background-color: #f9f9f9;
+}
+
+ul {
+    list-style: none;
+}
+nav ul {
+    display: flex; /* Setzt die Navigationselemente in eine Zeile */
+    padding: 0; /* Entfernt das Standard-Padding */
+    margin: 0; /* Entfernt den Standard-Abstand */
+}
+
+nav ul li {
+    list-style: none; /* Entfernt die Standard-Aufzählungspunkte */
+    margin: 0; /* Keine zusätzlichen Abstände */
 }
